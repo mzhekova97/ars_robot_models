@@ -11,3 +11,6 @@ catkin_package(
   LIBRARIES
 )
 
+include_directories(
+    ${catkin_INCLUDE_DIRS}
+)
